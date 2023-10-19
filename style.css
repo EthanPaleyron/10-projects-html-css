@@ -1,34 +1,99 @@
-.police1{
-  font-family: Arial;
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.txtR{
-  font-style: italic;
-  color: tomato;
+
+body {
+  background: url(img/fond.png) center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.txtB{
-  font-style: italic;
-  color: aquamarine
+
+a {
+  text-decoration: none;
 }
-.txtV{
-  font-style: italic;
-  color: goldenrod;
+
+button {
+  border: none;
 }
-.police2{
-  font-family: cursive;
+
+.nav {
+  margin: 0 20em;
+  background-color: #27032D;
+  padding: 25px;
+  font-family: 'Luckiest Guy', cursive;
+  display: flex;
+  align-items: center;
 }
-.back1{
-  background-color: tomato;
-  font-style: italic;
+
+.logo {
+  margin-right: 150px;
+  width: 20em;
 }
-.back2{
-  background-color: aquamarine;
-  font-style: italic;
+
+.liens {
+  margin: 0 25px;
+  font-size: 22px;
+  color: #FFFFFF;
 }
-.back3{
-  background-color: goldenrod;
-  font-style: italic;
+
+.main {
+  margin: 0 20em 20px;
+  background-color: #FFFFFF;
+  padding: 60px 20px 20px;
+}
+
+.section_titre {
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.hand {
+  margin-right: 10px;
+  width: 25px;
+}
+
+.titre {
+  color: #27032D;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 25px;
+}
+
+.images {
+  margin: 20px 20px 20px 0;
+  width: 25em;
+  float: left;
+}
+
+.position_button {
+  display: flex;
+  justify-content: end;
+}
+
+.button {
+  margin: 35px 0;
+  color: #FFFFFF;
+  font-size: 25px;
+  background-color: #27032D;
+  padding: 10px;
 }
 
 .footer {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eden_school {
+  margin-top: 30px;
+  width: 90px;
+}
+
+.copyright {
+  margin: 20px 0;
+  color: #FFFFFF;
+  font-size: 15px;
+  text-decoration: underline;
 }
