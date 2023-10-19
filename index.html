@@ -1,67 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Salle de sport</title>
   </head>
   <body>
 
-    <h1>Hello Ethan ! Bienvenue à Eden school!</h1>
-
+  <header>
     <nav>
-    <a href="#int">l'intégration</a>
-    <a href="#dev">le développement</a>
-    <a href="#css">un peu de CSS</a>
+      <div class="liens">
+        <img class="img_liens" src="img/fire-solid.svg" alt="img">
+        <a class="text_liens" href="#">Coaching</a>
+      </div>
+      <div class="liens">
+        <img class="img_liens" src="img/gears-solid.svg" alt="img">
+        <a class="text_liens" href="#">Formules</a>
+      </div>
+      <div class="liens">
+        <img class="img_liens" src="img/hand-spock-solid.svg" alt="img">
+        <a class="text_liens" href="#">Je m'abonne</a>
+      </div>
     </nav>
+    <h3 class="mois_gratuit">La rentrée fitness <span class="text_blanc">1 mois gratuit !</span></h3>
 
-    <h2>Au cours de cette année nous allons avoir 2 matières:</h2>
-    <h3 id="int">L'integration</h3>
-    <h4>Le HTML:</h4>
+    <section class="section_titre">
+      <h1 class="sport_factory">Sport Factory</h1>
+      <h2 class="salle_de_sport">Salle de sport</h2>
+    </section>
+    </header>
 
-    <img src="images\html.png" 
-    alt="images">
+    <h2 class="titre">Toute nos salles de</h2>
+    <h3 class="lieux">Sport à Lyon</h3>
 
-    <h5>Le HTML sert à créer le contenu et la structure du site:
-      elle va contenir uniquement la partie textuelle du site</h5>
+    <section class="section_maps">
+      <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22262.342450385615!2d4.8188952682813015!3d45.775342448783036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea931bad96df%3A0x1c08ab2e41e47c60!2s69006%20Lyon!5e0!3m2!1sfr!2sfr!4v1679336979977!5m2!1sfr!2sfr" width="1400" height="550" style="border:3;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
 
-    <img src="images\css.jpg" 
-    alt="images">
+    <section class="section_article">
+      <article class="article">
+        <h2 class="titre">Lyon 6</h2>
+        <h3 class="lieux">Foch</h3>
+        <img class="img sport_1_et_3" src="img/sport1.jpg" alt="alt">
+        <p class="text_blanc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum nostrum placeat nam perferendis, culpa tenetur voluptates consequuntur sapiente delectus quo, repellendus porro itaque magni modi. Tempore veritatis velit quis quos. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique quod delectus facere molestiae quibusdam voluptatibus? Vel veniam voluptatem, corrupti doloremque omnis ducimus odit odio quas eveniet nemo at! Nemo, ducimus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, animi harum consectetur, officiis repellendus quidem neque sit temporibus voluptatum, quisquam quis necessitatibus deleniti sunt. Officia maiores exercitationem consequatur expedita debitis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa aut officiis dolore error iure doloribus saepe culpa itaque vero. Nobis dolores ipsum dolore eveniet sequi fugiat vel dicta eaque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quasi doloribus laboriosam sequi quas. Quae, sapiente esse impedit accusantium consequatur similique magni sit est vero distinctio, tenetur, necessitatibus iusto dolore. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam ratione dignissimos minus iure tenetur libero optio accusamus soluta officiis magni quod eveniet ut cupiditate porro, recusandae similique blanditiis! Possimus, aut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sapiente nam magnam earum ipsam iste quas voluptates distinctio incidunt voluptatibus nisi voluptatum asperiores repellat maxime dolorum, obcaecati deserunt, quia soluta? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam laborum vitae autem veritatis enim sunt quas quos nulla ut quasi, placeat dolores illo at soluta natus libero ipsa modi sed. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque eligendi expedita, ut quod minus doloremque sapiente fugit a autem culpa ipsa excepturi, quam id non repellat. Provident nisi voluptatibus tempora.</p>
+      </article>
+      <hr class="ligne">
 
-    <h5>Le CSS va nous permettre d'ajouter une mise en forme à notre site :
-       les couleurs, les formes, le fond, etc.</h5>
-    <h3 id="dev">Le développement</h3>
-    <h4>Le javascript:</h4>
+      <article class="article">
+        <h2 class="titre">Lyon 5</h2>
+        <h3 class="lieux">Vieux Lyon</h3>
+        <img class="img sport_2" src="img/sport2.jpg" alt="alt">
+        <p class="text_blanc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum nostrum placeat nam perferendis, culpa tenetur voluptates consequuntur sapiente delectus quo, repellendus porro itaque magni modi. Tempore veritatis velit quis quos. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique quod delectus facere molestiae quibusdam voluptatibus? Vel veniam voluptatem, corrupti doloremque omnis ducimus odit odio quas eveniet nemo at! Nemo, ducimus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, animi harum consectetur, officiis repellendus quidem neque sit temporibus voluptatum, quisquam quis necessitatibus deleniti sunt. Officia maiores exercitationem consequatur expedita debitis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa aut officiis dolore error iure doloribus saepe culpa itaque vero. Nobis dolores ipsum dolore eveniet sequi fugiat vel dicta eaque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quasi doloribus laboriosam sequi quas. Quae, sapiente esse impedit accusantium consequatur similique magni sit est vero distinctio, tenetur, necessitatibus iusto dolore. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam ratione dignissimos minus iure tenetur libero optio accusamus soluta officiis magni quod eveniet ut cupiditate porro, recusandae similique blanditiis! Possimus, aut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sapiente nam magnam earum ipsam iste quas voluptates distinctio incidunt voluptatibus nisi voluptatum asperiores repellat maxime dolorum, obcaecati deserunt, quia soluta? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam laborum vitae autem veritatis enim sunt quas quos nulla ut quasi, placeat dolores illo at soluta natus libero ipsa modi sed. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque eligendi expedita, ut quod minus doloremque sapiente fugit a autem culpa ipsa excepturi, quam id non repellat. Provident nisi voluptatibus tempora.</p>
+      </article>
+      <hr class="ligne">
 
-    <img src="images\js.jpg" 
-    alt="images">
+      <article class="article">
+        <h2 class="titre">Lyon 2</h2>
+        <h3 class="lieux">Bellecour</h3>
+        <img class="img sport_1_et_3" src="img/sport3.jpg" alt="alt">
+        <p class="text_blanc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum nostrum placeat nam perferendis, culpa tenetur voluptates consequuntur sapiente delectus quo, repellendus porro itaque magni modi. Tempore veritatis velit quis quos. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique quod delectus facere molestiae quibusdam voluptatibus? Vel veniam voluptatem, corrupti doloremque omnis ducimus odit odio quas eveniet nemo at! Nemo, ducimus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, animi harum consectetur, officiis repellendus quidem neque sit temporibus voluptatum, quisquam quis necessitatibus deleniti sunt. Officia maiores exercitationem consequatur expedita debitis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa aut officiis dolore error iure doloribus saepe culpa itaque vero. Nobis dolores ipsum dolore eveniet sequi fugiat vel dicta eaque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quasi doloribus laboriosam sequi quas. Quae, sapiente esse impedit accusantium consequatur similique magni sit est vero distinctio, tenetur, necessitatibus iusto dolore. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam ratione dignissimos minus iure tenetur libero optio accusamus soluta officiis magni quod eveniet ut cupiditate porro, recusandae similique blanditiis! Possimus, aut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sapiente nam magnam earum ipsam iste quas voluptates distinctio incidunt voluptatibus nisi voluptatum asperiores repellat maxime dolorum, obcaecati deserunt, quia soluta? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam laborum vitae autem veritatis enim sunt quas quos nulla ut quasi, placeat dolores illo at soluta natus libero ipsa modi sed. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque eligendi expedita, ut quod minus doloremque sapiente fugit a autem culpa ipsa excepturi, quam id non repellat. Provident nisi voluptatibus tempora.</p>
+      </article>
+      <hr class="ligne">
+    </section>
 
-    <h5>Javascript est un langage de programmation de script employé pour rendre une page web interactive.
-       Le comportement de la page et son apparence pourront varier en fonction de certains paramètres.</h5>
-     <hr>
+    <section class="section_temoignages">
+      <h2 class="temoignages">Témoignages</h2>
 
-     <h2 id="css">Et ici, nous allons un peu jouer avec la CSS !</h2>
+      <div class="position_temoignages">
+        <article class="article_profil">
+          <h3 class="name">AnitaM., 19 ans</h3>
+          <img class="profil" src="img/home/1.png" alt="img">
+          <p class="bio">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae corrupti fuga architecto eligendi minima corporis odio laudantium a expedita. Labore eaque obcaecati culpa reiciendis fugit dolorum error hic accusantium tempora? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi hic voluptas qui corporis debitis quis quam similique laborum eum praesentium. Voluptas, quis! Fuga aliquid soluta ad assumenda dolor nam reiciendis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident maiores odit eos dicta dignissimos, similique, dolorem libero ea consectetur repudiandae odio asperiores error sint adipisci quo explicabo repellat corrupti ex!</p>
+        </article>
 
-     <div class="police1">
-     <h3>Les couleurs du texte : Et ma police est Arial !</h3>
+        <article class="article_profil">
+          <h3 class="name">MarcoS., 23 ans</h3>
+          <img class="profil" src="img/home/2.png" alt="img">
+          <p class="bio">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae corrupti fuga architecto eligendi minima corporis odio laudantium a expedita. Labore eaque obcaecati culpa reiciendis fugit dolorum error hic accusantium tempora? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi hic voluptas qui corporis debitis quis quam similique laborum eum praesentium. Voluptas, quis! Fuga aliquid soluta ad assumenda dolor nam reiciendis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident maiores odit eos dicta dignissimos, similique, dolorem libero ea consectetur repudiandae odio asperiores error sint adipisci quo explicabo repellat corrupti ex!</p>
+        </article>
 
-    <h4 class="txtR">Ce paragraphe est rouge.</h4>
-    <h4 class="txtB">Ce paragraphe est bleu.</h4>
-    <h4 class="txtV">Ce paragraphe est vert.</h4>
-  </div>
+        <article class="article_profil">
+          <h3 class="name">CélineD., 32 ans</h3>
+          <img class="profil" src="img/home/3.png" alt="img">
+          <p class="bio">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae corrupti fuga architecto eligendi minima corporis odio laudantium a expedita. Labore eaque obcaecati culpa reiciendis fugit dolorum error hic accusantium tempora? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi hic voluptas qui corporis debitis quis quam similique laborum eum praesentium. Voluptas, quis! Fuga aliquid soluta ad assumenda dolor nam reiciendis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident maiores odit eos dicta dignissimos, similique, dolorem libero ea consectetur repudiandae odio asperiores error sint adipisci quo explicabo repellat corrupti ex!</p>
+        </article>
+      </div>
+    </section>
 
-  <section class="police2">
-    <h3>Les couleurs de fond : Et ma police est cursive !</h3>
+img
 
-    <h4 class="back1">Ce paragraphe est rouge.</h4>
-    <h4 class="back2">Ce paragraphe est bleu.</h4>
-    <h4 class="back3">Ce paragraphe est vert.</h4>
-  </section>
-
-  <footer class="footer">
-    <img src="images/logovert.png" alt="images">
-    <p>copyright Eden School</p>
-  </footer>
+    <script type="module" src="/main.js"></script>
   </body>
 </html>
